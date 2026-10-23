@@ -21,3 +21,6 @@ app.listen(PORT, () => {
 
 const vagasRoutes = require('./routes/vagas.routes');
 app.use('/api/vagas', vagasRoutes);
+
+
+require('./database/db');
